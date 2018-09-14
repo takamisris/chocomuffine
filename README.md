@@ -1,1 +1,2 @@
 # chocomuffine
+WordPress theme
