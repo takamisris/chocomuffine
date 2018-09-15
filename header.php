@@ -3,6 +3,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/widget.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
  
 <?php wp_head(); ?><!-- WordPressに必要なメタ情報、JQUERYのインストールなど -->
 </head>
@@ -14,6 +16,9 @@
         <?php bloginfo( 'name' ); ?>
       </a></h1>
     </div>
+	  <button type="button" id="navbutton">
+      <i class="fas fa-bars"></i>
+		</button>
   </div>
   <?php wp_nav_menu( array(
     'theme_location' => 'header-nav',

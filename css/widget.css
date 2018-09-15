@@ -1,0 +1,23 @@
+/* ----------- */
+/* COMMON
+/* ----------- */
+.widget_recent_entries ul, .widget_meta ul, .widget_recent_comments ul, .widget_pages ul, .widget_meta ul, .widget_categories ul, .widget_archive ul, .widget_nav_menu ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ 
+.widget_recent_entries li, .widget_meta li, .widget_recent_comments li, .widget_pages li, .widget_meta li, .widget_categories li, .widget_archive li, .widget_nav_menu li {
+  padding: 10px;
+}
+
+/* ----------- */
+/* SEARCH
+/* ----------- */
+.search-form {
+  margin-bottom: 0;
+}
+.screen-reader-text {
+  display: none;
+}
