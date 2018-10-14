@@ -25,6 +25,8 @@ a { text-decoration: none;}
 /* ----------- */
 header {
   margin-bottom: 10px;
+  color: white;
+  background: #888888;
 }
 
 .header-inner {
@@ -40,6 +42,12 @@ header {
   margin-top: 0;
   padding-left: 1rem;
 }
+
+.header-inner a:link { color: white; }
+.header-inner a:visited { color: white; }
+.header-inner a:hover { color: white; }
+.header-inner a:active { color: white; }
+.header-inner a { text-decoration: none;}
 
 #navbutton {
   display: none;
@@ -247,6 +255,19 @@ header {
 }
 .sidebar-inner {
   height: auto;
+}
+.profile-image {
+  text-align: center;
+}
+.profile-document {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.sidebar-inner img{
+  width: 50%;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
 .sidebar-wrapper {
