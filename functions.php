@@ -18,6 +18,18 @@ function navbutton_scripts(){
 }
 add_action( 'wp_enqueue_scripts' , 'navbutton_scripts' );
 
+// excerptの文字数を指定
+function my_excerpt_length($length) {
+  return 130;
+}
+add_filter('excerpt_length', 'my_excerpt_length');
+
+// excerptの文末を指定
+function my_excerpt_more($more) {
+  return '...';
+}
+add_filter('excerpt_more', 'my_excerpt_more');
+
 //サイドバーにウィジェット追加
 function widgetarea_init() {
 register_sidebar(array(
