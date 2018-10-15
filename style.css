@@ -202,6 +202,22 @@ header {
   margin: 10px;
 }
 
+.article-category {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  background-color: #00A85A;
+}
+
+.article-category a:link { color: white; }
+.article-category a:visited { color: white; }
+.article-category a:hover { color: white; }
+.article-category a:active { color: white; }
+
+.article h1 {
+  font-size: 1.5rem;
+}
+
 @media (max-width: 780px) {
   .main {
     width: 100%;
