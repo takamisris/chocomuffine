@@ -38,7 +38,9 @@
             <?php endif; ?>
 
             <!-- 抜粋 -->
-            <?php the_excerpt(); ?>
+            <div class="post-excerpt">
+              <?php the_excerpt(); ?>
+            </div>
           </div>
         </a>
       </article>

@@ -194,6 +194,10 @@ header {
   background-color: #00A85A;
 }
 
+.post-excerpt {
+  overflow: hidden;
+}
+
 .contents h1{
   font-size: 1rem;
   margin: 10px;
