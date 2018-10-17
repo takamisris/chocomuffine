@@ -125,6 +125,8 @@ header {
   width: 80%;
   margin: 0 auto;
   font-size: 0;
+  background-color: white;
+  padding: 10px;
 }
 
 /* ----------- */
@@ -144,7 +146,9 @@ header {
    -ms-box-sizing: border-box;
    box-sizing: border-box;
    background-color: white;
-   padding: 20px;
+}
+pre {
+  white-space: pre-wrap;
 }
 
 .post-list {
