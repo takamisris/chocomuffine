@@ -12,6 +12,7 @@ body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0px;
+  background-color: #f7f7f7;
 }
 
 a:link { color: black; }
@@ -25,13 +26,13 @@ a { text-decoration: none;}
 /* ----------- */
 header {
   margin-bottom: 10px;
-  color: white;
 }
 
 .header-inner {
   position: relative;
   text-align: center;
   height: 5rem;
+  background-color: white;
 }
 
 .header-inner h1{
@@ -142,6 +143,8 @@ header {
    -o-box-sizing: border-box;
    -ms-box-sizing: border-box;
    box-sizing: border-box;
+   background-color: white;
+   padding: 20px;
 }
 
 .post-list {
@@ -217,6 +220,18 @@ header {
 
 .article h1 {
   font-size: 1.5rem;
+  border-top: 2px solid #888888;
+  border-bottom: 2px solid #888888;
+  padding: 10px;
+}
+
+.article h3 {
+  font-size: 1.3rem;
+	padding-top: 5px;
+	padding-bottom: 5px;
+  padding-left: 10px;
+  background: #5DA797;
+  color: white;
 }
 
 @media (max-width: 780px) {
@@ -273,8 +288,14 @@ header {
 .sidebar-inner {
   height: auto;
 }
+.profile {
+  background-color: white;
+}
 .profile-image {
   text-align: center;
+  width: 128px;
+  height: 128px;
+  margin: 0 auto;
 }
 .profile-document {
   text-align: center;
@@ -282,8 +303,8 @@ header {
   font-weight: 300;
 }
 .sidebar-inner img{
-  width: 50%;
-  border-radius: 50%;
+  width: 100%;
+  border-radius: 100%;
   margin: 0 auto;
 }
 
