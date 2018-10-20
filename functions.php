@@ -20,7 +20,7 @@ add_action( 'wp_enqueue_scripts' , 'navbutton_scripts' );
 
 // excerptの文字数を指定
 function my_excerpt_length($length) {
-  return 130;
+  return 200;
 }
 add_filter('excerpt_length', 'my_excerpt_length');
 
