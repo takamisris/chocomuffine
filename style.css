@@ -150,6 +150,9 @@ header {
 pre {
   white-space: pre-wrap;
 }
+pre .prettyprint {
+  border: 1px solid red;
+}
 
 .post-list {
   font-size: 0;
@@ -404,5 +407,3 @@ footer {
   height: 1rem;
 }
 
-
-	
