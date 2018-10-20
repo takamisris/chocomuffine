@@ -127,6 +127,7 @@ header {
   font-size: 0;
   background-color: white;
   padding: 10px;
+  background-color: #f7f7f7;
 }
 
 /* ----------- */
@@ -145,7 +146,7 @@ header {
    -o-box-sizing: border-box;
    -ms-box-sizing: border-box;
    box-sizing: border-box;
-   background-color: white;
+   background-color: #f7f7f7;
 }
 pre {
   white-space: pre-wrap;
@@ -161,7 +162,6 @@ pre .prettyprint {
   /* border: 1px solid #888888; */
   overflow: hidden;
   padding: 10px;
-  border-radius: 10px;
 }
 
 .post-list img{
@@ -204,7 +204,6 @@ pre .prettyprint {
 .post-category {
   color: #F98A8A;
   font-weight: 600;
-  font-size: 14px;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -223,6 +222,10 @@ pre .prettyprint {
   margin: 10px;
 }
 
+article {
+  background-color: white;
+  padding: 10px;
+}
 .article-date {
   font-weight: 600;
   color: #00A85A;
@@ -313,6 +316,7 @@ pre .prettyprint {
 }
 .sidebar-inner {
   height: auto;
+  background-color: white;
 }
 .profile {
   background-color: white;
@@ -325,7 +329,7 @@ pre .prettyprint {
 }
 .profile-document {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   font-weight: 300;
 }
 .sidebar-inner img{
