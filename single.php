@@ -28,7 +28,9 @@
       </div>
       <?php endif; ?>
       <!--本文取得-->
-      <?php the_content(); ?>
+      <div class="article-content">
+        <?php the_content(); ?>
+      </div>
     </article>
     <?php endif; ?>
  

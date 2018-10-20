@@ -147,10 +147,6 @@ header {
    box-sizing: border-box;
    background-color: white;
 }
-.contents a:link { color: blue; }
-.contents a:visited { color: blue; }
-.contents a:hover { color: blue; }
-.contents a:active { color: blue; }
 pre {
   white-space: pre-wrap;
 }
@@ -244,6 +240,12 @@ pre .prettyprint {
   background: #5DA797;
   color: white;
 }
+
+.article-content a:link { color: blue; }
+.article-content a:visited { color: blue; }
+.article-content a:hover { color: blue; }
+.article-content a:active { color: blue; }
+
 
 @media (max-width: 780px) {
   .main {
