@@ -11,6 +11,29 @@
 </head>
 <body <?php body_class(); ?>>
 <header>
+  <?php if(is_tag() || is_date() || is_search() || is_404()) : ?>
+    <meta name="robots" content="noindex"/>
+  <?php endif; ?>
+  <?php if( is_single() || is_page() ): ?>
+    <meta name="description" content="<?php echo strip_tags( get_the_excerpt() ); ?>" />
+    <?php if ( has_tag() ): ?>
+      <?php $tags = get_the_tags();
+      $kwds = array();
+      foreach($tags as $tag){
+        $kwds[] = $tag->name;
+      }	?>
+      <meta name="keywords" content="<?php echo implode( ',',$kwds ); ?>">
+    <?php endif; ?>
+  <?php else: ?><!--個別ページ以外のメタデータ(TOPページ・記事一覧ページなど)-->
+    <meta name="description" content="<?php bloginfo( 'description' ); ?>">
+    <?php $allcats = get_categories();
+    $kwds = array();
+    foreach($allcats as $allcat) {
+      $kwds[] = $allcat->name;
+    } ?>
+    <meta name="keywords" content="<?php echo implode( ',',$kwds ); ?>">
+  <?php endif; ?>
+
   <div class="header-inner">
     <div class="site-title">
       <h1><a href="<?php echo home_url(); ?>">
